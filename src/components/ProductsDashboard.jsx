@@ -46,7 +46,7 @@ export const Products = () => {
         <option value="asc" >low to high</option>
         <option value="desc">high to low</option>
       </select>
-      <div className="products-list" style={{ border:"1px solid red", display:"grid", gridTemplateColumns: "48% 48%"}}>
+      <div className="products-list" style={{ border:"1px solid red", display:"grid", gridTemplateColumns: "24% 24% 24% 24%"}}>
         {/* map throught th products  list and display the results */}
         {data &&
           data.map((e,index) => {
